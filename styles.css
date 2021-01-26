@@ -1,32 +1,37 @@
 nav.top-nav {
     background-color: #140078;
-    position: fixed; /* change to relative */
-    z-index: 1;
-    top: 142px;
-    left: 0px;
-    right: 0px;
-    box-shadow: 0px 4px 4px #0003;
-    padding-left: 2em;
+    position: relative; /* change to fixed? */
+    width: 100%;
+	  margin: 0 auto;
   }
+
+  /*
+  .nav_wrapper{
+    width:100%;
+    background-color: #140078; 
+    margin: 0 auto;
+    width: 100%; the parent must have 100% either 
+  }
+  */
 
   nav.top-nav ul {
     list-style: none;
-    padding: 0;
+    padding: 2px;
     text-align: left;
-    margin-left: -10px;
+    /* margin-left: -10px; */
   }
 
   nav.top-nav li {
     font-family: 'Playfair Display', serif;
     color: black;
     font-size: 20px;
-    margin: 5px;
+    margin: 15px;
     display: inline-block;
-    padding: -10px;
+    padding: 0px;
     user-select: none;
     position: relative;
-    margin-top: 0;
-    margin-bottom: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
   }
   
   nav.top-nav li a {
@@ -96,7 +101,7 @@ nav.top-nav {
     margin-left: auto;
     margin-right: 600px;
     width: 50%;
-    margin-top: 6px;
+    margin-top: 20px;
   }
 
   .bio-title {
