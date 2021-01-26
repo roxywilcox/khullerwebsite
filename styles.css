@@ -1,0 +1,100 @@
+nav.top-nav {
+    background-color: #140078;
+    position: fixed;
+    z-index: 1;
+    top: 142px;
+    left: 0px;
+    right: 0px;
+    box-shadow: 0px 4px 4px #0003;
+    padding-left: 2em;
+  }
+
+  nav.top-nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    margin-left: -10px;
+  }
+
+  nav.top-nav li {
+    font-family: 'Playfair Display', serif;
+    color: black;
+    font-size: 20px;
+    margin: 5px;
+    display: inline-block;
+    padding: -10px;
+    user-select: none;
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  nav.top-nav li a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  nav.top-nav li:hover {
+    text-decoration: underline;
+  }
+
+  .khuller-image {
+    max-width: 120px;
+    border-radius: 5px;
+    height: auto;
+    margin-top: 8px;
+    margin-bottom: -2px;
+  }
+  
+  .wrapper {
+    margin: 0 auto;
+    width: 800px;
+    font-family: 'Playfair Display', serif;
+  }
+
+  .title-wrapperNO {
+    margin: 0 auto;
+    width: 400px;
+    font-family: 'Playfair Display', serif;
+  }
+
+  .name {
+    color: black;
+    margin-right: 0px;
+    font-size: 40px;
+    margin-top: -128px;
+    margin-left: 210px;
+    margin-bottom: 5px;
+  }
+
+  .position1 {
+    color: black;
+    font-size: 22px;
+    margin-top: -14px;
+    margin-right: -50px;
+    margin-left: 210px;
+    margin-bottom: 1px;
+  }
+
+  .position2 {
+    color: black;
+    font-size: 22px;
+    margin-top: -5px;
+    margin-left: 210px;
+  }
+
+  .school {
+    color: black;
+    font-size: 26px;
+    margin-top: -4px;
+    margin-right: 235px;
+    margin-left: 210px;
+  }
+
+  .khuller-image {
+    display: block;
+    margin-left: auto;
+    margin-right: 600px;
+    width: 50%;
+    margin-top: 6px;
+  }
