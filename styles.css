@@ -66,34 +66,36 @@ nav.top-nav {
   .name {
     color: black;
     margin-right: 0px;
-    font-size: 40px;
+    font-size: 36px;
     margin-top: -128px;
     margin-left: 210px;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
   }
 
   .position1 {
     color: black;
-    font-size: 22px;
+    font-size: 18px;
     margin-top: -14px;
     margin-right: -50px;
     margin-left: 210px;
-    margin-bottom: 1px;
+    margin-bottom: 4px;
   }
 
   .position2 {
     color: black;
-    font-size: 22px;
+    font-size: 18px;
     margin-top: -5px;
     margin-left: 210px;
+    margin-bottom: 5px;
   }
 
   .school {
     color: black;
-    font-size: 26px;
+    font-size: 22px;
     margin-top: -4px;
     margin-right: 235px;
     margin-left: 210px;
+    margin-bottom: 10px;
   }
 
   .khuller-image {
